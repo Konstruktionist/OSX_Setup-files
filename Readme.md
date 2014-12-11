@@ -2,4 +2,4 @@
 
 These are my _personal_ preference files for various apps.
 
-They may be of use to you, but I'm hoping they are at least some use to me.
+They may be of use to you, but I'm hoping they are at least somewhat usefull to me.
