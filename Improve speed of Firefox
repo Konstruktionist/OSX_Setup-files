@@ -1,0 +1,28 @@
+Improve speed of Firefox
+========================
+
+You can improve the browsing speed in Firefox in quite a few ways, some of which are listed below.
+
+	Enable pipelining: Start by entering about:config in a new Firefox tab. Click on the ‘I’ll be careful, I promise!’ button and search for ‘pipelining’ (without quotes). Double click on the desired option and ensure the following settings:
+
+network.http.version							1.1
+network.http.pipelining						true
+network.http.pipelining.maxrequests		8
+network.http.pipelining.ssl				true
+network.http.proxy.pipelining				true
+
+
+By applying these changes, Firefox is configured to enable the pipelining feature of the http 1.1 protocol and send eight simultaneous http requests to the website. This increases your browsing speed, provided your Internet connection is fast enough to handle these simultaneous requests. Going beyond eight will not help since it is the maximum limit for Firefox.
+
+
+	Disable animation and placeholder images: You can do this by changing the following options.
+
+browser.tabs.animate								false
+browser.panorama.animate_zoom					false
+browser.display.show_image_placeholders	false
+
+
+	View source code in your preferred editor
+
+view_source.editor.external		true
+view_source.editor.path				Enter your editor path

@@ -1,4 +1,4 @@
-# A work in progress, or a sea of constant change
+## A work in progress, or a sea of constant change
 
 These are my _personal_ preference files for various apps.
 
